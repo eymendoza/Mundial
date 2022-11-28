@@ -8,6 +8,14 @@ from productos import productos
 def probarEndpoint():
     return render_template('prueba.html')
 
+@app.route('/resultados', methods=['GET'])
+def resultadoEndpoint():    
+    return render_template('resultados.html')
+
+@app.route('/productos', methods=['GET'])
+def equiposEndpoint():
+    return(productos)
+
 @app.route('/productos', methods=['POST'])
 def addProductos():
     new_producto = {
