@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.primer-div {
+    border-radius: 5px;
+    border-color: white;
+    align-items: center;
+    align-self: center;
+}
+
+#primer-parrafo {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.opciones {
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
+}
